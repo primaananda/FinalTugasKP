@@ -7,6 +7,7 @@
 
                 <p align="center">
                     <!-- /. ROW  -->
+                    <br>
                     <font face="Comic sans MS" size="5">Welcome</font>
                     <br>
                     <span class="profile-spn" ><br>

@@ -25,19 +25,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="welcome.html" class="navbar-brand" style="font-size:12px;  color:#fff;">
-                    <font face="Comic sans MS">Web Kepegawaian Diskominfo Provinsi Jawa Barat</font>
-                </a>
+                <a href="welcome.html" class="navbar-brand" style="font-size:18px;  color:#fff;">
+                    <font align="center" face="Comic sans MS">Web Kepegawaian Diskominfo Provinsi Jawa Barat</font></a>
             </div>
-            <span class="logout-spn" >
-                  <a href="#" style="font-size:12px;  color:#fff;">LOGOUT</a>
-
-                </span>
-            <span class="logout-spn" >
-                  <a href="#" style="font-size:12px;  color:#fff;"><img src="{{ asset('img/home1.png') }}" width="22" height="22" alt=""/></a>
-			   </span>
-            <span class="logout-spn" >
-                  <a href="#" style="font-size:12px;  color:#fff;"><img src="{{ asset('img/notif1.png') }}" width="22" height="22" alt=""/></a>
+            <span class="icon-spn" >
+                    <p align="right">
+                    <a href="#" style="font-size:18px;  color:#fff;"><img src="{{ asset('img/notif1.png') }}" width="22" height="22" alt=""/></a>
+                    <a href="#" style="font-size:18px;  color:#fff;"><img src="{{ asset('img/home1.png') }}" width="22" height="22" alt=""/></a>
+                    <a href="#" style="font-size:18px;  color:#fff;">LOGOUT</a>
+                </p>
 			   </span>
         </div>
     </div>

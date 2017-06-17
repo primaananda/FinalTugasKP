@@ -18,3 +18,15 @@ Route::get('/', function () {
 Route::get('/dashboard_pegawai', function () {
     return view('pegawai.dashboard_pegawai');
 });
+
+Route::get('/edit_profil', function () {
+    return view('pegawai.edit_profil');
+});
+
+Route::get('/profil_diri', function () {
+    return view('pegawai.profil_diri');
+});
+
+Route::get('/status_pengajuan', function () {
+    return view('pegawai.statuspengajuan');
+});
