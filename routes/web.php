@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/dashboard_pegawai', function () {
+    return view('pegawai.dashboard_pegawai');
+});
