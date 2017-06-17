@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Kepegawaian Diskominfo Provinsi Jawa Barat</title>
     <!-- BOOTSTRAP STYLES-->
-    <link href="{{url('assets/css/bootstrap.css')}}" rel="stylesheet" />
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
-    <link href="{{url('assets/css/font-awesome.css')}}" rel="stylesheet" />
+    <link href="{{ asset('css//font-awesome.css') }}" rel="stylesheet" />
     <!-- CUSTOM STYLES-->
-    <link href="{{url('assets/css/custom.css')}}" rel="stylesheet" />
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet" />
     <!-- GOOGLE FONTS-->
 </head>
 <body>
@@ -34,7 +34,10 @@
 
                 </span>
             <span class="logout-spn" >
-                  <a href="#" style="font-size:12px;  color:#fff;"><img src="assets/img/logo.png" width="22" height="22" alt=""/></a>
+                  <a href="#" style="font-size:12px;  color:#fff;"><img src="{{ asset('img/home1.png') }}" width="22" height="22" alt=""/></a>
+			   </span>
+            <span class="logout-spn" >
+                  <a href="#" style="font-size:12px;  color:#fff;"><img src="{{ asset('img/notif1.png') }}" width="22" height="22" alt=""/></a>
 			   </span>
         </div>
     </div>
@@ -52,14 +55,14 @@
     <!-- /. NAV SIDE  -->
     <div id="page-wrapper" >
         <div id="page-inner">
-            <div class="row"><div class="col-md-11">
+            <div class="row"><div class="col-md-12">
 
                     <p align="center">
                         <!-- /. ROW  -->
                         <font face="Comic sans MS" size="5">Welcome</font>
                         <br>
                         <span class="profile-spn" ><br>
-                  <a href="#" style="font-size:12px;  color:#fff;"><img src='assets/img/profile1.jpg' width="22" height="22" alt=""/></a></span>
+                  <a href="#" style="font-size:12px;  color:#fff;"><img src="{{ asset('img/profile2.png') }}" width="210" height="230" alt=""/></a></span>
                         <br>
                         <br>
                         <br>
